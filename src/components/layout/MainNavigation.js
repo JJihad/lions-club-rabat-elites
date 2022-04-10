@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
-import './mainNavigation.css';
+import './MainNavigation.css';
 import Logo from "../images/logo-lions-rabat-elites.jpg";
 import { Link } from "react-router-dom";
 

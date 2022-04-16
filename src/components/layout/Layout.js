@@ -1,4 +1,5 @@
 import React from 'react'
+import Footer from './Footer';
 import MainNavigation from './MainNavigation';
 
 function Layout(props) {
@@ -6,6 +7,7 @@ function Layout(props) {
     <div>
       <MainNavigation />
       <main>{props.children}</main>
+      <Footer />
     </div>
   )
 }

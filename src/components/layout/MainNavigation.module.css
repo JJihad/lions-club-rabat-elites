@@ -13,12 +13,11 @@
   display: flex;
 }
 .navMenu a:hover {
+  color: var(--lions-blue);
   text-decoration: underline var(--gold) 4px;
 }
 .navItem {
   text-decoration: none;
-}
-.navItem li {
   cursor: default;
   padding: 1rem;
   color: var(--lions-blue);

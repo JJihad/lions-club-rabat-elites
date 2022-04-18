@@ -18,6 +18,7 @@ function MainNavigation() {
   function displayToggle() {
     return toggleActive ? <FaTimes size={30} /> : <FaBars size={30} />;
   }
+
   return (
     <div className={classes.navbar}>
       <div className={classes.logo}>
@@ -35,21 +36,18 @@ function MainNavigation() {
           <li>ABOUT US</li>
         </NavLink>
         <NavLink className={classes.navItem}
-          to="/"
+          to="/about-us"
           //activeClassName={classes.selected}
-          exact
           onClick={handleToggle}
         >
-          <li >CONTACT US</li>
+          <li>CONTACT US</li>
         </NavLink>
         <NavLink className={classes.navItem}
           to="/donate"
           //activeClassName={classes.selected}
-          exact
           onClick={handleToggle}
-          //style={{ backgroundColor:"#F9C910", color: "black" }}
         >
-          <li >DONATE</li>
+          <li>DONATE</li>
         </NavLink>
       </ul>
 

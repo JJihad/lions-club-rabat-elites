@@ -12,17 +12,21 @@
 .navMenu {
   display: flex;
 }
+.navMenu a:hover {
+  text-decoration: underline var(--gold) 4px;
+}
 .navItem {
   text-decoration: none;
 }
 .navItem li {
-  text-decoration: underline;
-  text-decoration-color: var(--gold);
-  text-decoration-thickness: 5px;
+  cursor: default;
   padding: 1rem;
   color: var(--lions-blue);
-  font-size: larger;
+  font-size: 20pt;
 }
+/*.selected {
+  text-decoration: underline var(--gold) 4px;
+}*/
 .toggler {
   /*cursor: pointer;*/
   display: none;

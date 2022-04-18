@@ -5,6 +5,6 @@
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
-    background-color: rgb(0, 28, 73);
-    color: rgb(255,215,0);
+    background-color: var(--lions-blue);
+    color: var(--gold);
 }

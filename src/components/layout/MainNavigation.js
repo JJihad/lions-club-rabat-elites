@@ -28,23 +28,23 @@ function MainNavigation() {
       </div>
       <ul className={navMenu()}>
         <li><NavLink className={classes.navItem}
-          to="/"
-          //activeClassName={classes.selected}
+          to="/about-us"
+          activeClassName={classes.selected}
           exact
           onClick={handleToggle}
         >
           ABOUT US
         </NavLink></li>
         <li><NavLink className={classes.navItem}
-          to="/about-us"
-          //activeClassName={classes.selected}
+          to="/contact-us"
+          activeClassName={classes.selected}
           onClick={handleToggle}
         >
           CONTACT US
         </NavLink></li>
         <li><NavLink className={classes.navItem}
           to="/donate"
-          //activeClassName={classes.selected}
+          activeClassName={classes.selected}
           onClick={handleToggle}
         >
           DONATE

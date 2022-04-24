@@ -23,9 +23,9 @@
   color: var(--lions-blue);
   font-size: 20pt;
 }
-/*.selected {
+.navItem.selected {
   text-decoration: underline var(--gold) 4px;
-}*/
+}
 .toggler {
   /*cursor: pointer;*/
   display: none;

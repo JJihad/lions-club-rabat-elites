@@ -45,6 +45,8 @@
   }
   .navMenu.active {
     left: 0;
+    /*Overlay of the nav bar on top of the other components*/
+    z-index: 2;
   }
   .navItem {
     margin: 1.5rem;

@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/lions-club-rabat-elites/static/css/main.d9a2a00f.css",
+    "main.js": "/lions-club-rabat-elites/static/js/main.47484682.js",
+    "static/media/img-3.jpeg": "/lions-club-rabat-elites/static/media/img-3.1a9a086f0bc83a6fe329.jpeg",
+    "static/media/img-2.jpeg": "/lions-club-rabat-elites/static/media/img-2.84f9766b628ba8c06ef1.jpeg",
+    "static/media/logo-lions-rabat-elites.jpg": "/lions-club-rabat-elites/static/media/logo-lions-rabat-elites.4a56470865466917295e.jpg",
+    "static/media/img-1.jpeg": "/lions-club-rabat-elites/static/media/img-1.99fff13a5c5745e6fb98.jpeg",
+    "index.html": "/lions-club-rabat-elites/index.html",
+    "main.d9a2a00f.css.map": "/lions-club-rabat-elites/static/css/main.d9a2a00f.css.map",
+    "main.47484682.js.map": "/lions-club-rabat-elites/static/js/main.47484682.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d9a2a00f.css",
+    "static/js/main.47484682.js"
+  ]
+}
